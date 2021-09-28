@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+body{
+     /*全体の横幅 */
+    width: 1024px;
+     /*全体を中央寄せ */
+    margin: auto;
+     /*全体の余白 */
+    padding: 12px
+    /*height: 10rem;*/
+}
+
+ /*ボタン共通 */
+input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    
+    width: 180px;
+    text-align: center;
+    
+     /*余白 */
+    margin: 10px;
+}
+
+.box {
+	float: left;
+}
+
+.boxContainer {
+	overflow: hidden;
+}
+
+/* clearfix */
+.boxContainer:before,
+.boxContainer:after {
+    content: "";
+    display: table;
+}
+ 
+.boxContainer:after {
+    clear: both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.boxContainer {
+    zoom: 1;
+}
+
+h1{
+    text-align: center;
+    font-size: 65px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    margin-left: 362px;
+    margin-right: 362px;
+    width: 300px;
+}
+
+/* 数字 */
+/*h1{*/
+/*    margin: auto;*/
+    
+    /* 文字の太さ */
+/*    font-weight: 100;*/
+    
+    /* 文字を中央寄せ */
+/*    text-align: center;*/
+    
+    /* 横幅 */
+/*    width: 100px;*/
+    
+    /* 縦幅 */
+/*    height: 100px;*/
+/*    line-height: 100px;*/
+    
+    /* 枠の太さ 線の種類 色 */
+/*    border: 1px solid #009688;*/
+    
+    /* 枠を丸くする */
+/*    border-radius: 50%;*/
+/*}*/

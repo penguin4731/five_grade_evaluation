@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem 'rake'
 gem 'sinatra'
 gem 'sinatra-contrib'
-gem "activerecord", "< 5.0.0"
+gem "activerecord", "< 6.0.0"
 gem 'sinatra-activerecord'
 gem 'rails_12factor', group: :production
 
